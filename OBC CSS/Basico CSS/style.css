@@ -1,0 +1,18 @@
+h1{
+    color: purple;
+    /*border-color: yellow;
+    border-width: 2px;
+    border-style:outset;*/
+
+    border: 2px outset orange;
+}
+
+li{
+    color: green;
+}
+
+body{
+    background-image: url('https://ichef.bbci.co.uk/news/800/cpsprodpb/C012/production/_121107194_hi071310218.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

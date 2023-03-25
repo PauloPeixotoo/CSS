@@ -1,0 +1,17 @@
+.yellow-text{
+    color: orange;
+}
+
+.big-text{
+    font-size: 40px;
+}
+
+/*Sempre utilizar o # quando for ID*/
+#europa-text{
+    font-size: 10px;
+    color:blue 
+}
+
+li{
+    color: gray;
+}

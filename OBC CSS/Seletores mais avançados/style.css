@@ -1,0 +1,29 @@
+/* *{
+ border: 2px solid;
+}*/
+
+/*Seletor de descendencia
+li a{
+    color: red;
+}
+*/
+
+/*Todo A > (maior) que for filho de LI vai receber esse estilo*/
+li > a{
+    color: red;
+}
+
+/*Quero colocar um estilo em todo h4 que vier logo depois do h1(Seletor adjacente)*/
+h1 + h4{
+    border: 4px dashed;
+}
+
+/*Busque em todos os encore que tenha o /recibo*/
+a[href='/recibo']{
+    color: orange;
+}
+
+/*Caso queira colocar cor nos LI no segundo listado*/
+li:nth-of-type(2) {
+    color: purple;
+}
